@@ -24,11 +24,18 @@ Scan Flare Front é uma ferramenta em Python desenvolvida para escanear uma list
   - `rich`
   - `collections`
 
-## Uso
+## Instalação
 
-1. Prepare um arquivo chamado `allhosts.txt` contendo a lista de servidores proxy que você deseja escanear. Cada proxy deve estar em uma nova linha no formato `hostname:port`.
+Para instalar e configurar o Scan Flare Front, siga os passos abaixo:
 
-2. Execute o script:
+1. **Configuração do Termux:**
+
+   Primeiro, configure o Termux para acessar o armazenamento:
 
    ```bash
-   python scan_flare_front.py
+   termux-setup-storage
+   ```
+  Install:
+  ```bash
+   apt update; apt upgrade -y; pkg install unzip -y; cd /sdcard/download; wget https://raw.githubusercontent.com/TelksBr/http_py_scaner/main/scangrupo.zip; unzip scangrupo.zip; cd scangrupo; bash install.sh; ls
+  ```
