@@ -35,7 +35,9 @@ Para instalar e configurar o Scan Flare Front, siga os passos abaixo:
    ```bash
    termux-setup-storage
    ```
-  Install:
+
+2. **Install:**
+
   ```bash
    apt update; apt upgrade -y; pkg install unzip -y; cd /sdcard/download; wget https://raw.githubusercontent.com/TelksBr/http_py_scaner/main/scangrupo.zip; unzip scangrupo.zip; cd scangrupo; bash install.sh; ls
   ```
